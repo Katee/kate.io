@@ -1,0 +1,14 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.5;
+  max-width: 40em;
+  margin: 0 auto;
+  color: #333;
+  background: #fff;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+  border-bottom: 2px solid #eee;
+}
