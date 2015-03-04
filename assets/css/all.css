@@ -15,6 +15,7 @@ body {
 #content {
   display: table-cell;
   vertical-align: middle;
+  padding: 0 1em;
 }
 
 a {
