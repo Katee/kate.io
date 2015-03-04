@@ -15,10 +15,11 @@ body {
   display: table-cell;
   vertical-align: middle;
   max-width: 40em;
-  padding: 0 1em;
+  padding: 1em;
 }
 
 h1 {
+  margin: 0;
   font-family: 'Merriweather', sans-serif;
 }
 
@@ -30,4 +31,5 @@ a {
 
 .links {
   text-align: center;
+  margin-bottom: 0;
 }
