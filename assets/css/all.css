@@ -3,7 +3,7 @@ html, body {
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Karla', sans-serif;
   line-height: 1.5;
   margin: 0 auto;
   color: #333;
@@ -16,6 +16,10 @@ body {
   vertical-align: middle;
   max-width: 40em;
   padding: 0 1em;
+}
+
+h1 {
+  font-family: 'Merriweather', sans-serif;
 }
 
 a {
