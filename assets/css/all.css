@@ -14,7 +14,7 @@ body {
 #content {
   display: table-cell;
   vertical-align: middle;
-  max-width: 40em;
+  max-width: 34em;
   padding: 1em;
 }
 
