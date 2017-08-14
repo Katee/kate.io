@@ -1,0 +1,3 @@
+[submodule "themes/kate.io"]
+	path = themes/kate.io
+	url = git@github.com:Katee/kate.io-hugo-theme.git
