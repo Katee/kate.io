@@ -1,0 +1,7 @@
+baseURL = "https://kate.io/"
+languageCode = "en-ca"
+title = "Kate Murphy"
+theme = "kate.io"
+disableHugoGeneratorInject = true
+[params]
+  analyticsGoogle = "UA-10614565-2"
