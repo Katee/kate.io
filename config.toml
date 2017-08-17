@@ -3,8 +3,7 @@ languageCode = "en-ca"
 title = "Kate Murphy"
 theme = "kate.io"
 disableHugoGeneratorInject = true
-[params]
-  analyticsGoogle = "UA-10614565-2"
+googleAnalytics = "UA-10614565-2"
 [author]
   name = "Kate Murphy"
 [outputFormats]
