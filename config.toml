@@ -3,6 +3,7 @@ languageCode = "en-ca"
 title = "Kate Murphy"
 theme = "kate.io"
 disableHugoGeneratorInject = true
+disableKinds = ["sitemap" ]
 googleAnalytics = "UA-10614565-2"
 [author]
   name = "Kate Murphy"
