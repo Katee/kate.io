@@ -12,3 +12,5 @@ googleAnalytics = "UA-10614565-2"
     baseName = "feed"
 [taxonomies]
 category = ""
+[permalinks]
+  posts = "/blog/:year/:month/:day/:slug/"
