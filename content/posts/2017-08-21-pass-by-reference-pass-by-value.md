@@ -134,4 +134,4 @@ print(the_list, the_number_ref.object)
 # This code outputs "[42] 42"
 {{< /highlight >}}
 
-Update: it is possible to edit the immutable value of `a_number` in Python in a different way but it has unintended consequences. See [Weird Python Integers]({{< ref "posts/2017-08-22-weird-python-integers.md" >}}).
+Update: it is possible to edit the immutable value of an integer in Python. Doing so has [unintended consequences🔮]({{< ref "posts/2017-08-22-weird-python-integers.md" >}}).
