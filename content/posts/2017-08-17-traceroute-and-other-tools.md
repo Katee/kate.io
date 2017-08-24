@@ -3,8 +3,8 @@ title: "Traceroute and Other Tools"
 uuid: "337bbdb9-7394-4fa2-8d40-0a0de5a22a0e"
 date: 2017-08-17
 slug: "traceroute-and-other-tools"
-tags: ["traceroute"]
-categories: []
+tags: ["traceroute", "star"]
+categories: ["star"]
 ---
 When you connect to another computer on a network your data usually travels through many devices (also called "hops", "gateways", or "routers"). I can use traceroute to list the devices my packets travel through to arrive at `steampowered.com` from the [Recurse Center](https://www.recurse.com/).
 
