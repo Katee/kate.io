@@ -68,7 +68,7 @@ The total time here 100 is milliseconds with 57 milliseconds being accounted for
 
 ## Can it be faster?
 
-It might be possible to speed up traceroute by sending out many probes with different TTLs simultaneously. The ICMP response includes part of the original UDP packet making it possible to identify responses even if they return out of order if you include something unique in the original packet (like a unique destination port). The manual mentions that "Some systems such as Solaris and routers such as Ciscos rate limit ICMP messages.". In sent 30 packets with TTLs between 1-30 simultaneously as a test and it mostly worked. However I only received a few responses for messages with a high enough TTL to reach the final destination which could be from rate-limiting.
+It might be possible to speed up traceroute by sending out many probes with different TTLs simultaneously. The ICMP response includes part of the original UDP packet making it possible to identify responses even if they return out of order if you include something unique in the original packet (like a unique destination port). The manual mentions that "Some systems such as Solaris and routers such as Ciscos rate limit ICMP messages.". I sent 30 packets with TTLs between 1-30 simultaneously as a test and it mostly worked. However I only received a few responses for messages with a high enough TTL to reach the final destination which could be from rate-limiting.
 
 Another big slowdown I experienced was the timeout when a hop returns no response. In that case traceroute waits `number_of_probes × timeout` before trying the next TTL. With the default settings the wait is 15 seconds (3 probes &times; 5 seconds).
 
