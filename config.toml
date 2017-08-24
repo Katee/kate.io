@@ -10,7 +10,5 @@ googleAnalytics = "UA-10614565-2"
 [outputFormats]
   [outputFormats.RSS]
     baseName = "feed"
-[taxonomies]
-category = ""
 [permalinks]
   posts = "/blog/:year/:month/:day/:slug/"
