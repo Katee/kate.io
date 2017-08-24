@@ -134,4 +134,4 @@ print(the_list, the_number_ref.object)
 # This code outputs "[42] 42"
 {{< /highlight >}}
 
-I'm not sure if it is possible to edit the immutable value of `a_number` at all in Python. I tried using `ctypes.memmove` to directly modify memory and was able to change other objects but not `int`s. I think that if I were able to edit `the_number` by directly editing the memory then any other `int`s that were `0` would also become the new value.
+Update: it is possible to edit the immutable value of `a_number` in Python in a different way but it has unintended consequences. See [Weird Python Integers]({{< ref "posts/2017-08-22-weird-python-integers.md" >}}).
