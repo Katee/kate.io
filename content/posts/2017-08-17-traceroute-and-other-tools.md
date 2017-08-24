@@ -8,7 +8,7 @@ categories: ["star"]
 ---
 When you connect to another computer on a network your data usually travels through many devices (also called "hops", "gateways", or "routers"). I can use traceroute to list the devices my packets travel through to arrive at `steampowered.com` from the [Recurse Center](https://www.recurse.com/).
 
-<pre>
+{{< highlight sh >}}
 $ time traceroute steampowered.com
 traceroute to steampowered.com (104.88.12.183), 64 hops max, 52 byte packets
  1  gateway.net.recurse.com (10.0.0.1)  6.991 ms  1.959 ms  1.961 ms
@@ -22,7 +22,7 @@ traceroute to steampowered.com (104.88.12.183), 64 hops max, 52 byte packets
  7  ae-3.r07.nycmny01.us.bb.gin.ntt.net (129.250.6.176)  25.137 ms  16.652 ms  12.502 ms
  8  a104-88-12-183.deploy.static.akamaitechnologies.com (104.88.12.183)  4.710 ms  7.913 ms  4.445 ms
 traceroute steampowered.com  0.00s user 0.01s system 3% cpu 0.214 total
-</pre>
+{{< /highlight >}}
 
 Here's a diagram representing the route:
 {{< figure src="/images/traceroute-example.png" alt="Diagram of above network showing multiple devices at step #5" >}}
@@ -50,7 +50,7 @@ Another thing that makes traceroute slower is that by default three packets (cal
 
 The closest I can get to making traceroute behave like the simplified diagram above is to send only one packet per TTL (`-q` option) and disable looking up symbolic names (`-n` flag):
 
-<pre>
+{{< highlight sh >}}
 $ time traceroute -q 1 -n steampowered.com
 traceroute to steampowered.com (23.33.112.147), 64 hops max, 52 byte packets
  1  10.0.0.1  4.793 ms
@@ -62,7 +62,7 @@ traceroute to steampowered.com (23.33.112.147), 64 hops max, 52 byte packets
  7  216.151.177.249  7.988 ms
  8  23.33.112.147  9.635 ms
 traceroute -n -q 1 steampowered.com  0.00s user 0.00s system 4% cpu 0.100 total
-</pre>
+{{< /highlight >}}
 
 The total time here 100 is milliseconds with 57 milliseconds being accounted for by the time spent waiting for the responses. That is fast enough for human consumption.
 
