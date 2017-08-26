@@ -56,6 +56,8 @@ It looks like integers that aren't in the small integers table also take up 32 b
 
 What happens if we change the value of an integer in this table? Python has a module called [ctypes](https://docs.python.org/3/library/ctypes.html) that can be misused to directly edit memory. (We could also use a debugger but this way all the examples are in Python.)
 
+Note: this code is very platform dependent. If it doesn't work you might be using Python 2 instead of Python 3. In Python 2 changing `mutate_int` so that both instances of 24 are 16 may work.
+
 {{< highlight python3 >}}
 >>> import ctypes
 >>>
