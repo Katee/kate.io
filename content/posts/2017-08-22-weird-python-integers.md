@@ -32,7 +32,7 @@ That is suprising! It turns out that all "small integers" with the same value po
 32.0
 {{< /highlight >}}
 
-It looks like there is a table of tiny integers and each integer is takes up 32 bytes.
+It looks like there is a table of tiny integers and each integer takes up 32 bytes.
 
 {{< highlight python3 >}}
 >>> x = 1000
