@@ -107,3 +107,5 @@ Even doing math with `7` no longer works correctly 🎉
 >>> 0b1111 ^ 0b1000
 13
 {{< /highlight >}}
+
+P.S. You can read more about the table of small integers in the [CPython source code](https://github.com/python/cpython/blob/918403cfc3304d27e80fb792357f40bb3ba69c4e/Objects/longobject.c#L37-L43).
