@@ -12,3 +12,5 @@ googleAnalytics = "UA-10614565-2"
     baseName = "feed"
 [permalinks]
   posts = "/blog/:year/:month/:day/:slug/"
+[blackfriday]
+  hrefTargetBlank = true
