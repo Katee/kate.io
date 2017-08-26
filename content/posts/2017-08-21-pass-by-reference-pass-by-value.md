@@ -6,6 +6,8 @@ slug: "pass-by-reference-pass-by-value"
 tags: ["programming", "python"]
 categories: []
 ---
+**tl;dr: this post just contrasts how things are passed to functions in C and Python.**
+
 Here's a contrived Python function that takes two arguments and modifies both:
 
 {{< highlight python3 >}}
