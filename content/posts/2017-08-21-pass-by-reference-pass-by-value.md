@@ -30,7 +30,7 @@ Let's try it out in the Python REPL:
 >>> # ^ WHAT? Python didn't modify the argument `the_number`
 {{< /highlight >}}
 
-We see that `the_list` is modified but `the_number` doesn't change from `0`. I found this behaviour surprising the first time I encountered it. I had guessed that Python would modify both arguments or neither. As I learned more languages I saw this choice repeated in Ruby, Javascript, and (pre-dating those all) C.
+We see that `the_list` is modified but `the_number` doesn't change from `0`. I found this behaviour surprising the first time I encountered it in a language. I had guessed that both arguments would be modified or neither. As I learned more languages I saw this choice repeated in Ruby, Javascript, and (pre-dating those all) C.
 
 ## Did you say C?
 
@@ -84,7 +84,7 @@ int main(int argc, char *argv[]) {
 
 ## What about Python?
 
-The stack copying business in C **is not** what is happening in Python. Python passes in `the_number` as a reference but doesn't allow basic types like `int` to be modified at all. The built-in `id()` function returns a value that we can think of as a memory address. This makes it a bit more clear what is happening:
+The stack copying business in C **is not** what is happening in Python. Python passes in `the_number` as a reference but doesn't allow basic types like `int` to be modified at all. The built-in `id` function returns a value that we can think of as a memory address. This makes it a bit more clear what is happening:
 
 {{< highlight python3 >}}
 def modify_arguments(a_list, a_number):
