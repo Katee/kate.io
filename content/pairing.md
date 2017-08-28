@@ -4,6 +4,7 @@ date: 2017-08-25T01:44:39-04:00
 ---
 In the long standing spirit of Recurse Center experimentation I'm starting a personal pairing experiment. I'm interested in spending an hour or two where you walk me through your project and we work on a feature together. Here are some things I've paired on in the past two weeks:
 
+* Profiling and reducing memory usage in a Python project that stores large files in memcache (with [Indradhanush](https://indradhanush.github.io/)).
 * Showing and explaining basic git usage.
 * Writing C code to do math on wide integers without using assembly instructions.
 * Doing some word related exercises in Python.
