@@ -5,6 +5,7 @@ theme = "kate.io"
 disableHugoGeneratorInject = true
 disableKinds = ["sitemap" ]
 googleAnalytics = "UA-10614565-2"
+pygmentsUseClasses = true
 [author]
   name = "Kate Murphy"
 [outputFormats]
