@@ -5,7 +5,7 @@ uuid: "337bbdb9-7394-4fa2-8d40-0a0de5a22a0e"
 date: 2017-08-17
 slug: "traceroute-and-other-tools"
 tags: ["traceroute", "star"]
-categories: ["star"]
+categories: ["star", "rss"]
 image: "images/posts/traceroute-and-other-tools.png"
 image_width: 696
 image_height: 250

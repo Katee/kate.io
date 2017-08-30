@@ -5,7 +5,7 @@ date: 2017-08-24T22:05:50-04:00
 uuid: "43ffbd20-75cb-433b-ac66-c542e33ff490"
 slug: "python-constants-in-bytecode"
 tags: ["python"]
-categories: ["star"]
+categories: ["star", "rss"]
 image: "images/posts/python-constants-in-bytecode.png"
 image_width: 696
 image_height: 355

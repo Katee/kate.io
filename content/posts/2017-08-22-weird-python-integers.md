@@ -5,7 +5,7 @@ date: 2017-08-22T17:00:27-04:00
 uuid: "2cff8cc5-8554-4ab2-a1c3-c15bfc4d41d4"
 slug: "weird-python-integers"
 tags: ["python"]
-categories: ["star"]
+categories: ["star", "rss"]
 image: "images/posts/weird-python-integers.png"
 image_width: 696
 image_height: 238
