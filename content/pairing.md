@@ -6,11 +6,11 @@ In the long standing spirit of Recurse Center experimentation I'm starting a per
 
 * Starting a toy Torrent meta search engine using BeautifulSoup and Elasticsearch (with [Gautham Goli](https://github.com/GauthamGoli)).
 * Profiling and reducing memory usage in a Python project that stores large files in memcache (with [Indradhanush](https://indradhanush.github.io/)).
-* Showing and explaining basic git usage.
-* Writing C code to do math on wide integers without using assembly instructions.
-* Doing some word related exercises in Python.
-* Intercepting ICMP packets in Rust.
 * Writing integration tests for a full-stack Javascript project.
+* Intercepting ICMP packets in Rust.
+* Doing some word related exercises in Python.
+* Writing C code to do math on wide integers without using assembly instructions.
+* Explaining and demonstrating basic git usage.
 
 Here's a paring wishlist:
 
