@@ -1,5 +1,6 @@
 ---
 title: "Weird Python Integers Part II: Constants in Bytecode"
+description: "Using the Python disassembler to figure out why `1000 is 1000` but `(10 ** 3) is not (10 ** 3)`."
 date: 2017-08-24T22:05:50-04:00
 uuid: "43ffbd20-75cb-433b-ac66-c542e33ff490"
 slug: "python-constants-in-bytecode"

@@ -1,5 +1,6 @@
 ---
 title: "Traceroute and Other Tools"
+description: "How does Traceroute compare to other tools like mtr and how can it be faster?"
 uuid: "337bbdb9-7394-4fa2-8d40-0a0de5a22a0e"
 date: 2017-08-17
 slug: "traceroute-and-other-tools"

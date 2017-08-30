@@ -1,5 +1,6 @@
 ---
 title: "Weird Python Integers"
+description: "Python integers are stranger than I thought and playing with them can have surprising consequences."
 date: 2017-08-22T17:00:27-04:00
 uuid: "2cff8cc5-8554-4ab2-a1c3-c15bfc4d41d4"
 slug: "weird-python-integers"

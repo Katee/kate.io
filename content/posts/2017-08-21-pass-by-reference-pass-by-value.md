@@ -1,5 +1,6 @@
 ---
 title: "Pass by value (which is sometimes a reference)"
+description: "Neither C or Python allow you to modify a passed in integer argument, but how they do that differs."
 uuid: "5e5df17c-95fd-41d4-9ef7-b35603200e3e"
 date: 2017-08-21
 slug: "pass-by-reference-pass-by-value"
