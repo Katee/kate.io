@@ -1,6 +1,8 @@
 ---
 title: "Pairing"
 date: 2017-08-25T01:44:39-04:00
+description: "Let's pair on a project together. You can be in NYC or we can code remotely."
+image: "logo.jpg"
 ---
 In the long standing spirit of Recurse Center experimentation I'm running a personal pairing experiment. I'm interested in spending an hour or two where you walk me through your project, and we work on a feature together. Pairing works best for me on weekdays between **11am** and **8pm EDT**, but I can be flexible. **We can pair remotely** or in person if you are in NYC. These pairing sessions are **completely free**.
 

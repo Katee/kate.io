@@ -1,5 +1,7 @@
 ---
 title: "Kate Murphy"
+description: "Hi, I'm Kate. I blog about things, usually related to computers. I'm currently at the Recurse Center."
+image: "logo.jpg"
 ---
 <h1>Hi, I&rsquo;m Kate Murphy</h1>
 
