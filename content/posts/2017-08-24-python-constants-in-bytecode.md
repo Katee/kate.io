@@ -5,6 +5,9 @@ uuid: "43ffbd20-75cb-433b-ac66-c542e33ff490"
 slug: "python-constants-in-bytecode"
 tags: ["python"]
 categories: ["star"]
+image: "images/posts/python-constants-in-bytecode.png"
+image_width: 696
+image_height: 355
 ---
 This is a quick follow-up to [Weird Python Integers]({{< ref "posts/2017-08-22-weird-python-integers.md" >}}). While writing that post, I saw some Python behaviour I didn't understand. Then I read some comments by [kmill and squeaky-clean](https://news.ycombinator.com/item?id=15094345) in response to my original post, and now I can explain Python's behaviour.
 

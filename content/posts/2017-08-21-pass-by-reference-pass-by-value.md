@@ -5,6 +5,9 @@ date: 2017-08-21
 slug: "pass-by-reference-pass-by-value"
 tags: ["programming", "python"]
 categories: []
+image: "images/posts/pass-by-reference-pass-by-value.png"
+image_width: 410
+image_height: 185
 ---
 **tl;dr: this post just contrasts how things are passed to functions in C and Python.**
 

@@ -5,6 +5,9 @@ uuid: "2cff8cc5-8554-4ab2-a1c3-c15bfc4d41d4"
 slug: "weird-python-integers"
 tags: ["python"]
 categories: ["star"]
+image: "images/posts/weird-python-integers.png"
+image_width: 696
+image_height: 238
 ---
 Note: all of this code was run on my machine using Python 3.6.1. Not everything will work the same if you test using Python 2.
 

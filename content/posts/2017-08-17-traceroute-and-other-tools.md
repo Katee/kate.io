@@ -5,6 +5,9 @@ date: 2017-08-17
 slug: "traceroute-and-other-tools"
 tags: ["traceroute", "star"]
 categories: ["star"]
+image: "images/posts/traceroute-and-other-tools.png"
+image_width: 696
+image_height: 250
 ---
 When you connect to another computer on a network your data usually travels through many devices (also called "hops", "gateways", or "routers"). I can use traceroute to list the devices my packets travel through to arrive at `steampowered.com` from the [Recurse Center](https://www.recurse.com/).
 
@@ -25,7 +28,11 @@ traceroute steampowered.com  0.00s user 0.01s system 3% cpu 0.214 total
 {{< /highlight >}}
 
 Here's a diagram representing the route:
-{{< figure src="/images/traceroute-example.png" alt="Diagram of above network showing multiple devices at step #5" >}}
+
+
+<figure>
+<amp-img alt="Diagram of above network showing multiple devices at step #5" width="1000" height="250" layout="responsive" src="/images/traceroute-example.png"></amp-img>
+</figure>
 
 I found a couple of the steps interesting:
 
@@ -44,7 +51,10 @@ I found the name "time-to-live" initially confusing because in other contexts "t
 
 In the example the entire process took 214 milliseconds with 153 milliseconds of that spent waiting for packets to return. On the same network `ping steampowered.com` gets results in about 8 milliseconds (with some results coming significantly faster). However ping and traceroute aren't directly comparable because ping only needs to make one round trip while traceroute makes at least one round trip per device between you and the destination.
 
-{{< figure src="/images/ping-traceroute-comparison.png" alt="Diagram of network showing ping taking one step and traceroute taking multiple steps" caption="Example of ping vs. traceroute on a fictitious route">}}
+<figure>
+<amp-img alt="Diagram of network showing ping taking one step and traceroute taking multiple steps" width="1000" height="217" layout="responsive" src="/images/ping-traceroute-comparison.png"></amp-img>
+<figcaption>Example of ping vs. traceroute on a fictitious route</figcaption>
+</figure>
 
 Another thing that makes traceroute slower is that by default three packets (called probes in the manual) are sent at each step. Also getting the symbolic names (e.g. `gateway.net.recurse.com`) isn't free! Unless the name has already been cached a <abbr title="Domain Name System">DNS</abbr> query is made.
 
