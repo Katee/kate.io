@@ -1,5 +1,5 @@
 ---
-title: "Simple Hash Collisions"
+title: "Simple Hash Collisions in Lua"
 description: "It is trivial to generate colliding hashes and create json that takes a non-linear time to process compared to a normal json file."
 uuid: "26a15fc6-fb83-4c70-a47d-e4f536a6375a"
 date: 2017-11-02
